@@ -7,3 +7,6 @@ CochlTranscriptor is Auto transcriptor which make Closed Caption that include Em
 
 
 ## How to Use
+```
+python CochlTranscriptor/cochl_transcriptor.py -iv [input_path] -o [output_path] -ot [output_type] -it [input_type] -f [font_path]
+```

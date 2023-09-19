@@ -11,21 +11,17 @@ from cochlsense.CochlSense import cochlSense
 from tools.processing_tools import extract_audio
 from tools.transcriptor_tools import get_writer
 from tools.visualizer import visualizer
-from tools.parser_tools import make_parser
+from tools.parser_tools import cli
 from whisperapi.whisper import whisper_result
 from tools.transcriptor_tools import SubtitlesWriter
 
 
 def main():
-    args = make_parser()
-    
+    args = cli()
     audio = extract_audio(args.input_path)
     whispers = whisper_result(audio)
     csv_path, json_path = cochlSense(audio)
-    with open(json_path, 'w', encoding='utf-8') as json_file:
-        cochl = json_file
-    SubtitlesWriter.iterate_result(whispers, options, cochl)
-    get_writer(args.output_type, args.output_path)    
+    visualizer(csv_path, whispers, args)  
 
 if __name__ == '__main__':
     main()

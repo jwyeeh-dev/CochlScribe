@@ -19,6 +19,7 @@ from tools.parser_tools import make_parser
 from whisperapi.whisper import whisper_result
 from PIL import Image, ImageDraw, ImageFont
 
+
 def smi_generator(filename, transcript = "output.smi"):
 
     output_path = "dataset/output/" + filename
@@ -65,7 +66,3 @@ def txt_generator(filename, text_content, output_dir="dataset/output/"):
     # 텍스트 파일 생성
     with open(output_path, "w") as f:
         f.write(text_content)
-
-# 예시 사용법
-text_content = "이것은 텍스트 파일에 저장될 내용입니다."
-txt_generator("output.txt", text_content)

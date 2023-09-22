@@ -8,12 +8,11 @@ import numpy as np
 import tools.utils as pt
 import tools.cli as cli
 from collections import defaultdict
-from cochlsense.CochlSense import cochlSense
-from cochlsense.CochlSense import cochlSense
+from models.CochlSense.load import cochlSense
 from tools.utils import extract_audio
 from tools.utils import transform
 from tools.cli import cli
-from whisper.load import whisper_result
+from models.whisperx.load import whisper_result
 from tools.transcript import smi_generator, srt_generator, txt_generator
 from PIL import Image, ImageDraw, ImageFont
 

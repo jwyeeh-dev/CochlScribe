@@ -10,11 +10,9 @@ from collections import defaultdict
 from models.CochlSense.load import cochlSense
 from models.CochlSense.load import cochlSense
 from tools.utils import extract_audio
-from tools.transcript import get_writer
 from tools.visualizer import visualizer
 from tools.cli import cli
 from models.whisperx.load import whisper_result
-from tools.transcript import SubtitlesWriter
 
 
 def main():

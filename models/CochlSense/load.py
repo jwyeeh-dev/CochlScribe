@@ -11,14 +11,14 @@ import matplotlib.cm as cm
 import matplotlib.pyplot as plt
 import subprocess
 
-import tools.processing_tools as tools
+import tools.utils as tools
 import cochl_sense_api as sense
 import cochl_sense_api.api.audio_session_api as sense_api
 from cochl_sense_api.model.audio_chunk import AudioChunk
 from cochl_sense_api.model.audio_type import AudioType
 from cochl_sense_api.model.create_session import CreateSession      
 
-def cochlSense(filename, api_key = './CochlTranscriptor/api_key.json'):
+def cochlSense(filename, api_key = './assets/api_key.json'):
     with open(api_key, 'rb') as fr:
         apifile = json.load(fr)
 

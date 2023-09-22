@@ -8,15 +8,15 @@ import zlib
 from typing import Callable, Optional, TextIO
 import numpy as np
 
-import tools.processing_tools as pt
-import tools.parser_tools as parser_tools
+import tools.utils as pt
+import tools.cli as cli
 from collections import defaultdict
 from cochlsense.CochlSense import cochlSense
 from cochlsense.CochlSense import cochlSense
-from tools.processing_tools import extract_audio
-from tools.processing_tools import transform
-from tools.parser_tools import make_parser
-from whisperapi.whisper import whisper_result
+from tools.utils import extract_audio
+from tools.utils import transform
+from tools.cli import make_parser
+from whisper.load import whisper_result
 from PIL import Image, ImageDraw, ImageFont
 
 

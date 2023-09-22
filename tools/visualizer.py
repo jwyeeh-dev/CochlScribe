@@ -5,16 +5,16 @@ import ast
 import pandas as pd
 import numpy as np
 
-import tools.processing_tools as pt
-import tools.parser_tools as parser_tools
+import tools.utils as pt
+import tools.cli as cli
 from collections import defaultdict
 from cochlsense.CochlSense import cochlSense
 from cochlsense.CochlSense import cochlSense
-from tools.processing_tools import extract_audio
-from tools.processing_tools import transform
-from tools.parser_tools import cli
-from whisperapi.whisper import whisper_result
-from tools.transcriptor_tools import smi_generator, srt_generator, txt_generator
+from tools.utils import extract_audio
+from tools.utils import transform
+from tools.cli import cli
+from whisper.load import whisper_result
+from tools.transcript import smi_generator, srt_generator, txt_generator
 from PIL import Image, ImageDraw, ImageFont
 
 

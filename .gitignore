@@ -166,5 +166,4 @@ cython_debug/
 .DS_Store
 
 # api_keys and assets
-assets/
 api_key.json

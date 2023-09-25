@@ -170,3 +170,4 @@ api_key.json
 
 # pre_trained model assets
 pretrained_models/
+wav2vec2_checkpoints/

@@ -167,3 +167,6 @@ cython_debug/
 
 # api_keys and assets
 api_key.json
+
+# pre_trained model assets
+pretrained_models/

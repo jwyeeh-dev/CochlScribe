@@ -1,33 +1,34 @@
-# CochlTranscriptor
+![2nd flow of Transcriptor](https://github.com/jwyeeh-dev/CochlScribe/assets/99489807/c8cb85f3-4be9-4c37-84d2-da2fa3b0e0b3)# CochlScribe
 
 CochlTranscriptor is Auto transcriptor which make Closed Caption that include Emotional background sounds.
 
-## 🦾 The Flow of CochlTranscriptor
+## 🦾 The Flow of CochlScribe
 
-![2nd flow of Transcriptor](https://github.com/jwyeeh-dev/CochlTranscriptor/assets/99489807/2bbe6ac0-eb6d-4b0f-acaf-c8168ffb6921)
+![2nd flow of Transcriptor](https://github.com/jwyeeh-dev/CochlScribe/assets/99489807/bea6fe03-787d-4ed9-a259-451766d57217)
+
 
 
 ## ⚙️ Setup
 
 ### 1. Create Python 3.8 Environment
 
-`conda create --name cochltranscriptor python=3.8`
+`conda create --name cochlscribe python=3.8`
 
-`conda activate cochltranscriptor`
+`conda activate cochlscribe`
 
 ### 2. Install this repo
 
-`git clone https://github.com/jwyeeh-dev/CochlTranscriptor.git`
+`git clone https://github.com/jwyeeh-dev/CochlScribe.git`
 
 If already installed, update package to most recent commit
 
-`git clone https://github.com/jwyeeh-dev/CochlTranscriptor.git --upgrade`
+`git clone https://github.com/jwyeeh-dev/CochlScribe.git --upgrade`
 
 If wishing to modify this package, clone and install in editable mode:
 
 ```
-$ git clone https://github.com/jwyeeh-dev/CochlTranscriptor.git
-$ cd CochlTranscriptor
+$ git clone https://github.com/jwyeeh-dev/CochlScribe.git
+$ cd CochlScribe
 $ pip install -e .
 ```
 

@@ -24,7 +24,7 @@ def main():
     
     whispers = whisper_result(audio)
     speechbrain = speechMood(audio)
-    csv_path, json_path = cochlSense(audio)
+    csv_path, _ = cochlSense(audio)
     transformed_df = transform(csv_path)
 
     subtitles = SubtitlesWriter(audio, transformed_df, whispers, speechbrain, args)

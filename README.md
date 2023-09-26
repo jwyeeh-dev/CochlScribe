@@ -1,4 +1,4 @@
-![2nd flow of Transcriptor](https://github.com/jwyeeh-dev/CochlScribe/assets/99489807/c8cb85f3-4be9-4c37-84d2-da2fa3b0e0b3)# CochlScribe
+# CochlScribe
 
 CochlTranscriptor is Auto transcriptor which make Closed Caption that include Emotional background sounds.
 

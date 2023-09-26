@@ -1,0 +1,240 @@
+tags,start_time,end_time
+"[{'probability': 0.0, 'name': 'Others'}]",0.0,1.0
+"[{'probability': 0.0, 'name': 'Others'}]",0.5,1.5
+"[{'probability': 0.0, 'name': 'Others'}]",1.0,2.0
+"[{'probability': 0.0, 'name': 'Others'}]",1.5,2.5
+"[{'probability': 0.0, 'name': 'Others'}]",2.0,3.0
+"[{'probability': 0.0, 'name': 'Others'}]",2.5,3.5
+"[{'probability': 0.0, 'name': 'Others'}]",3.0,4.0
+"[{'probability': 0.7505522966384888, 'name': 'Footstep'}]",3.5,4.5
+"[{'probability': 0.6920695304870605, 'name': 'Footstep'}]",4.0,5.0
+"[{'probability': 0.0, 'name': 'Others'}]",4.5,5.5
+"[{'probability': 0.0, 'name': 'Others'}]",5.0,6.0
+"[{'probability': 0.5307329297065735, 'name': 'Footstep'}]",5.5,6.5
+"[{'probability': 0.5160189270973206, 'name': 'Footstep'}]",6.0,7.0
+"[{'probability': 0.0, 'name': 'Others'}]",6.5,7.5
+"[{'probability': 0.0, 'name': 'Others'}]",7.0,8.0
+"[{'probability': 0.0, 'name': 'Others'}]",7.5,8.5
+"[{'probability': 0.0, 'name': 'Others'}]",8.0,9.0
+"[{'probability': 0.0, 'name': 'Others'}]",8.5,9.5
+"[{'probability': 0.4394829273223877, 'name': 'Male_speech'}, {'probability': 0.4882952868938446, 'name': 'Speech'}]",9.0,10.0
+"[{'probability': 0.37317562103271484, 'name': 'Male_speech'}, {'probability': 0.38003432750701904, 'name': 'Speech'}]",9.5,10.5
+"[{'probability': 0.0, 'name': 'Others'}]",10.0,11.0
+"[{'probability': 0.507236123085022, 'name': 'Female_speech'}, {'probability': 0.507236123085022, 'name': 'Speech'}]",10.5,11.5
+"[{'probability': 0.0, 'name': 'Others'}]",11.0,12.0
+"[{'probability': 0.2272346466779709, 'name': 'Female_speech'}, {'probability': 0.3718121349811554, 'name': 'Speech'}]",11.5,12.5
+"[{'probability': 0.0, 'name': 'Others'}]",12.0,13.0
+"[{'probability': 0.0, 'name': 'Others'}]",12.5,13.5
+"[{'probability': 0.0, 'name': 'Others'}]",13.0,14.0
+"[{'probability': 0.0, 'name': 'Others'}]",13.5,14.5
+"[{'probability': 0.2253657579421997, 'name': 'Female_speech'}, {'probability': 0.416114866733551, 'name': 'Speech'}]",14.0,15.0
+"[{'probability': 0.19613631069660187, 'name': 'Female_speech'}, {'probability': 0.4235886335372925, 'name': 'Speech'}]",14.5,15.5
+"[{'probability': 0.0, 'name': 'Others'}]",15.0,16.0
+"[{'probability': 0.0, 'name': 'Others'}]",15.5,16.5
+"[{'probability': 0.0, 'name': 'Others'}]",16.0,17.0
+"[{'probability': 0.0, 'name': 'Others'}]",16.5,17.5
+"[{'probability': 0.0, 'name': 'Others'}]",17.0,18.0
+"[{'probability': 0.40503770112991333, 'name': 'Female_speech'}, {'probability': 0.4035666882991791, 'name': 'Female_yell'}, {'probability': 0.44356584548950195, 'name': 'Speech'}]",17.5,18.5
+"[{'probability': 0.4920351505279541, 'name': 'Female_speech'}, {'probability': 0.4920351505279541, 'name': 'Female_yell'}, {'probability': 0.524806022644043, 'name': 'Speech'}, {'probability': 0.524806022644043, 'name': 'Yell'}]",18.0,19.0
+"[{'probability': 0.5323231220245361, 'name': 'Female_speech'}, {'probability': 0.5323231220245361, 'name': 'Female_yell'}, {'probability': 0.5323231220245361, 'name': 'Speech'}, {'probability': 0.5323231220245361, 'name': 'Yell'}]",18.5,19.5
+"[{'probability': 0.2968332767486572, 'name': 'Female_speech'}, {'probability': 0.2968332767486572, 'name': 'Female_yell'}]",19.0,20.0
+"[{'probability': 0.6249101758003235, 'name': 'Female_speech'}, {'probability': 0.6223820447921753, 'name': 'Female_yell'}, {'probability': 0.6293958425521851, 'name': 'Speech'}, {'probability': 0.6293958425521851, 'name': 'Yell'}]",19.5,20.5
+"[{'probability': 0.5712926387786865, 'name': 'Female_speech'}, {'probability': 0.5712926387786865, 'name': 'Female_yell'}, {'probability': 0.5795440673828125, 'name': 'Speech'}, {'probability': 0.5795440673828125, 'name': 'Yell'}]",20.0,21.0
+"[{'probability': 0.3996579647064209, 'name': 'Female_speech'}, {'probability': 0.3996579647064209, 'name': 'Female_yell'}, {'probability': 0.47226956486701965, 'name': 'Speech'}, {'probability': 0.47226956486701965, 'name': 'Yell'}]",20.5,21.5
+"[{'probability': 0.22496828436851501, 'name': 'Female_speech'}, {'probability': 0.3036293685436249, 'name': 'Speech'}]",21.0,22.0
+"[{'probability': 0.41361114382743835, 'name': 'Moan'}]",21.5,22.5
+"[{'probability': 0.0, 'name': 'Others'}]",22.0,23.0
+"[{'probability': 0.3463568389415741, 'name': 'Speech'}]",22.5,23.5
+"[{'probability': 0.34744787216186523, 'name': 'Male_speech'}, {'probability': 0.34744787216186523, 'name': 'Speech'}]",23.0,24.0
+"[{'probability': 0.3209277391433716, 'name': 'Male_speech'}, {'probability': 0.40507566928863525, 'name': 'Speech'}]",23.5,24.5
+"[{'probability': 0.37026190757751465, 'name': 'Male_speech'}, {'probability': 0.392792284488678, 'name': 'Speech'}]",24.0,25.0
+"[{'probability': 0.4197233319282532, 'name': 'Male_speech'}, {'probability': 0.4197233319282532, 'name': 'Speech'}]",24.5,25.5
+"[{'probability': 0.5566182136535645, 'name': 'Male_speech'}, {'probability': 0.5661718249320984, 'name': 'Speech'}]",25.0,26.0
+"[{'probability': 0.29966747760772705, 'name': 'Male_speech'}]",25.5,26.5
+"[{'probability': 0.0, 'name': 'Others'}]",26.0,27.0
+"[{'probability': 0.6131311655044556, 'name': 'Footstep'}]",26.5,27.5
+"[{'probability': 0.8321701288223267, 'name': 'Footstep'}]",27.0,28.0
+"[{'probability': 0.7411189079284668, 'name': 'Footstep'}]",27.5,28.5
+"[{'probability': 0.9119070768356323, 'name': 'Moan'}]",28.0,29.0
+"[{'probability': 0.3636987805366516, 'name': 'Moan'}]",28.5,29.5
+"[{'probability': 0.0, 'name': 'Others'}]",29.0,30.0
+"[{'probability': 0.0, 'name': 'Others'}]",29.5,30.5
+"[{'probability': 0.0, 'name': 'Others'}]",30.0,31.0
+"[{'probability': 0.0, 'name': 'Others'}]",30.5,31.5
+"[{'probability': 0.0, 'name': 'Others'}]",31.0,32.0
+"[{'probability': 0.0, 'name': 'Others'}]",31.5,32.5
+"[{'probability': 0.0, 'name': 'Others'}]",32.0,33.0
+"[{'probability': 0.0, 'name': 'Others'}]",32.5,33.5
+"[{'probability': 0.4583715796470642, 'name': 'Instrument'}, {'probability': 0.4583715796470642, 'name': 'Music'}]",33.0,34.0
+"[{'probability': 0.5707457661628723, 'name': 'Instrument'}, {'probability': 0.5707457661628723, 'name': 'Music'}]",33.5,34.5
+"[{'probability': 0.49084368348121643, 'name': 'Instrument'}, {'probability': 0.49084368348121643, 'name': 'Music'}]",34.0,35.0
+"[{'probability': 0.512012779712677, 'name': 'Instrument'}, {'probability': 0.512012779712677, 'name': 'Music'}]",34.5,35.5
+"[{'probability': 0.4979652762413025, 'name': 'Instrument'}, {'probability': 0.4979652762413025, 'name': 'Music'}]",35.0,36.0
+"[{'probability': 0.0, 'name': 'Others'}]",35.5,36.5
+"[{'probability': 0.44620269536972046, 'name': 'Instrument'}, {'probability': 0.44620269536972046, 'name': 'Music'}]",36.0,37.0
+"[{'probability': 0.3907431960105896, 'name': 'Instrument'}, {'probability': 0.3907431960105896, 'name': 'Music'}]",36.5,37.5
+"[{'probability': 0.34340375661849976, 'name': 'Instrument'}, {'probability': 0.34340375661849976, 'name': 'Music'}]",37.0,38.0
+"[{'probability': 0.3913223445415497, 'name': 'Instrument'}, {'probability': 0.3913223445415497, 'name': 'Music'}]",37.5,38.5
+"[{'probability': 0.4913256764411926, 'name': 'Instrument'}, {'probability': 0.4913256764411926, 'name': 'Music'}]",38.0,39.0
+"[{'probability': 0.4444342255592346, 'name': 'Instrument'}, {'probability': 0.4444342255592346, 'name': 'Music'}]",38.5,39.5
+"[{'probability': 0.0, 'name': 'Others'}]",39.0,40.0
+"[{'probability': 0.0, 'name': 'Others'}]",39.5,40.5
+"[{'probability': 0.0, 'name': 'Others'}]",40.0,41.0
+"[{'probability': 0.0, 'name': 'Others'}]",40.5,41.5
+"[{'probability': 0.29684150218963623, 'name': 'Female_speech'}]",41.0,42.0
+"[{'probability': 0.0, 'name': 'Others'}]",41.5,42.5
+"[{'probability': 0.18218864500522614, 'name': 'Female_speech'}]",42.0,43.0
+"[{'probability': 0.0, 'name': 'Others'}]",42.5,43.5
+"[{'probability': 0.0, 'name': 'Others'}]",43.0,44.0
+"[{'probability': 0.0, 'name': 'Others'}]",43.5,44.5
+"[{'probability': 0.0, 'name': 'Others'}]",44.0,45.0
+"[{'probability': 0.0, 'name': 'Others'}]",44.5,45.5
+"[{'probability': 0.24712403118610382, 'name': 'Female_speech'}]",45.0,46.0
+"[{'probability': 0.1586802750825882, 'name': 'Female_speech'}]",45.5,46.5
+"[{'probability': 0.0, 'name': 'Others'}]",46.0,47.0
+"[{'probability': 0.0, 'name': 'Others'}]",46.5,47.5
+"[{'probability': 0.0, 'name': 'Others'}]",47.0,48.0
+"[{'probability': 0.0, 'name': 'Others'}]",47.5,48.5
+"[{'probability': 0.0, 'name': 'Others'}]",48.0,49.0
+"[{'probability': 0.0, 'name': 'Others'}]",48.5,49.5
+"[{'probability': 0.0, 'name': 'Others'}]",49.0,50.0
+"[{'probability': 0.0, 'name': 'Others'}]",49.5,50.5
+"[{'probability': 0.0, 'name': 'Others'}]",50.0,51.0
+"[{'probability': 0.0, 'name': 'Others'}]",50.5,51.5
+"[{'probability': 0.48330020904541016, 'name': 'Moan'}]",51.0,52.0
+"[{'probability': 0.0, 'name': 'Others'}]",51.5,52.5
+"[{'probability': 0.0, 'name': 'Others'}]",52.0,53.0
+"[{'probability': 0.0, 'name': 'Others'}]",52.5,53.5
+"[{'probability': 0.0, 'name': 'Others'}]",53.0,54.0
+"[{'probability': 0.0, 'name': 'Others'}]",53.5,54.5
+"[{'probability': 0.0, 'name': 'Others'}]",54.0,55.0
+"[{'probability': 0.0, 'name': 'Others'}]",54.5,55.5
+"[{'probability': 0.0, 'name': 'Others'}]",55.0,56.0
+"[{'probability': 0.0, 'name': 'Others'}]",55.5,56.5
+"[{'probability': 0.0, 'name': 'Others'}]",56.0,57.0
+"[{'probability': 0.0, 'name': 'Others'}]",56.5,57.5
+"[{'probability': 0.0, 'name': 'Others'}]",57.0,58.0
+"[{'probability': 0.0, 'name': 'Others'}]",57.5,58.5
+"[{'probability': 0.0, 'name': 'Others'}]",58.0,59.0
+"[{'probability': 0.0, 'name': 'Others'}]",58.5,59.5
+"[{'probability': 0.0, 'name': 'Others'}]",59.0,60.0
+"[{'probability': 0.0, 'name': 'Others'}]",59.5,60.5
+"[{'probability': 0.0, 'name': 'Others'}]",60.0,61.0
+"[{'probability': 0.3032514750957489, 'name': 'Cooking_tools'}, {'probability': 0.3032514750957489, 'name': 'Dining_tools'}]",60.5,61.5
+"[{'probability': 0.0, 'name': 'Others'}]",61.0,62.0
+"[{'probability': 0.0, 'name': 'Others'}]",61.5,62.5
+"[{'probability': 0.2710045278072357, 'name': 'Female_speech'}, {'probability': 0.35722067952156067, 'name': 'Moan'}, {'probability': 0.41012024879455566, 'name': 'Speech'}]",62.0,63.0
+"[{'probability': 0.0, 'name': 'Others'}]",62.5,63.5
+"[{'probability': 0.37462741136550903, 'name': 'Female_speech'}, {'probability': 0.34659427404403687, 'name': 'Female_yell'}, {'probability': 0.3911215662956238, 'name': 'Speech'}]",63.0,64.0
+"[{'probability': 0.37462741136550903, 'name': 'Female_speech'}, {'probability': 0.34659427404403687, 'name': 'Female_yell'}, {'probability': 0.3911215662956238, 'name': 'Speech'}]",63.5,64.5
+"[{'probability': 0.0, 'name': 'Others'}]",64.0,65.0
+"[{'probability': 0.6553124189376831, 'name': 'Female_speech'}, {'probability': 0.653385579586029, 'name': 'Female_yell'}, {'probability': 0.7222148776054382, 'name': 'Speech'}, {'probability': 0.7222148776054382, 'name': 'Yell'}]",64.5,65.5
+"[{'probability': 0.5267121195793152, 'name': 'Female_speech'}, {'probability': 0.5267121195793152, 'name': 'Female_yell'}, {'probability': 0.5711624622344971, 'name': 'Speech'}, {'probability': 0.5711624622344971, 'name': 'Yell'}]",65.0,66.0
+"[{'probability': 0.2320977747440338, 'name': 'Female_speech'}, {'probability': 0.3752152919769287, 'name': 'Speech'}]",65.5,66.5
+"[{'probability': 0.7190034985542297, 'name': 'Female_speech'}, {'probability': 0.710411787033081, 'name': 'Female_yell'}, {'probability': 0.7190034985542297, 'name': 'Speech'}, {'probability': 0.710411787033081, 'name': 'Yell'}]",66.0,67.0
+"[{'probability': 0.42523321509361267, 'name': 'Female_speech'}, {'probability': 0.42523321509361267, 'name': 'Female_yell'}, {'probability': 0.42523321509361267, 'name': 'Speech'}]",66.5,67.5
+"[{'probability': 0.4592916667461395, 'name': 'Female_speech'}, {'probability': 0.4368007779121399, 'name': 'Female_yell'}, {'probability': 0.6426365375518799, 'name': 'Speech'}, {'probability': 0.6091183423995972, 'name': 'Yell'}]",67.0,68.0
+"[{'probability': 0.6396628618240356, 'name': 'Moan'}]",67.5,68.5
+"[{'probability': 0.0, 'name': 'Others'}]",68.0,69.0
+"[{'probability': 0.2822621166706085, 'name': 'Female_speech'}, {'probability': 0.2822621166706085, 'name': 'Female_yell'}, {'probability': 0.4315890073776245, 'name': 'Speech'}]",68.5,69.5
+"[{'probability': 0.6884158849716187, 'name': 'Female_speech'}, {'probability': 0.6797567009925842, 'name': 'Female_yell'}, {'probability': 0.7088111639022827, 'name': 'Speech'}, {'probability': 0.7088111639022827, 'name': 'Yell'}]",69.0,70.0
+"[{'probability': 0.39591163396835327, 'name': 'Female_speech'}, {'probability': 0.33792194724082947, 'name': 'Female_yell'}, {'probability': 0.5919110774993896, 'name': 'Speech'}, {'probability': 0.46137315034866333, 'name': 'Yell'}]",69.5,70.5
+"[{'probability': 0.0, 'name': 'Others'}]",70.0,71.0
+"[{'probability': 0.0, 'name': 'Others'}]",70.5,71.5
+"[{'probability': 0.7181056141853333, 'name': 'Female_speech'}, {'probability': 0.6784757971763611, 'name': 'Female_yell'}, {'probability': 0.7181056141853333, 'name': 'Speech'}, {'probability': 0.716973066329956, 'name': 'Yell'}]",71.0,72.0
+"[{'probability': 0.7591087818145752, 'name': 'Female_speech'}, {'probability': 0.7469068765640259, 'name': 'Female_yell'}, {'probability': 0.7591087818145752, 'name': 'Speech'}, {'probability': 0.7469068765640259, 'name': 'Yell'}]",71.5,72.5
+"[{'probability': 0.8283481001853943, 'name': 'Female_speech'}, {'probability': 0.8241923451423645, 'name': 'Female_yell'}, {'probability': 0.8283481001853943, 'name': 'Speech'}, {'probability': 0.8241923451423645, 'name': 'Yell'}]",72.0,73.0
+"[{'probability': 0.6232925653457642, 'name': 'Female_speech'}, {'probability': 0.6232925653457642, 'name': 'Female_yell'}, {'probability': 0.6254556179046631, 'name': 'Speech'}, {'probability': 0.6254556179046631, 'name': 'Yell'}]",72.5,73.5
+"[{'probability': 0.2864304184913635, 'name': 'Female_speech'}, {'probability': 0.2864304184913635, 'name': 'Female_yell'}, {'probability': 0.49479469656944275, 'name': 'Speech'}]",73.0,74.0
+"[{'probability': 0.32320335507392883, 'name': 'Female_speech'}, {'probability': 0.3781965672969818, 'name': 'Speech'}]",73.5,74.5
+"[{'probability': 0.6327083706855774, 'name': 'Moan'}]",74.0,75.0
+"[{'probability': 0.23318491876125336, 'name': 'Female_speech'}, {'probability': 0.6605366468429565, 'name': 'Speech'}]",74.5,75.5
+"[{'probability': 0.0, 'name': 'Others'}]",75.0,76.0
+"[{'probability': 0.0, 'name': 'Others'}]",75.5,76.5
+"[{'probability': 0.0, 'name': 'Others'}]",76.0,77.0
+"[{'probability': 0.0, 'name': 'Others'}]",76.5,77.5
+"[{'probability': 0.0, 'name': 'Others'}]",77.0,78.0
+"[{'probability': 0.0, 'name': 'Others'}]",77.5,78.5
+"[{'probability': 0.0, 'name': 'Others'}]",78.0,79.0
+"[{'probability': 0.0, 'name': 'Others'}]",78.5,79.5
+"[{'probability': 0.0, 'name': 'Others'}]",79.0,80.0
+"[{'probability': 0.6629499197006226, 'name': 'Toilet_flush'}, {'probability': 0.6629499197006226, 'name': 'Water_run'}]",79.5,80.5
+"[{'probability': 0.8124047517776489, 'name': 'Toilet_flush'}, {'probability': 0.8124047517776489, 'name': 'Water_run'}]",80.0,81.0
+"[{'probability': 0.8505668640136719, 'name': 'Toilet_flush'}, {'probability': 0.8505668640136719, 'name': 'Water_run'}]",80.5,81.5
+"[{'probability': 0.7125511169433594, 'name': 'Toilet_flush'}, {'probability': 0.7125511169433594, 'name': 'Water_run'}]",81.0,82.0
+"[{'probability': 0.8414167165756226, 'name': 'Toilet_flush'}, {'probability': 0.8414167165756226, 'name': 'Water_run'}]",81.5,82.5
+"[{'probability': 0.6551048159599304, 'name': 'Toilet_flush'}, {'probability': 0.6551048159599304, 'name': 'Water_run'}]",82.0,83.0
+"[{'probability': 0.6905611753463745, 'name': 'Toilet_flush'}, {'probability': 0.6905611753463745, 'name': 'Water_run'}]",82.5,83.5
+"[{'probability': 0.7729356288909912, 'name': 'Toilet_flush'}, {'probability': 0.7729356288909912, 'name': 'Water_run'}]",83.0,84.0
+"[{'probability': 0.8001881241798401, 'name': 'Toilet_flush'}, {'probability': 0.8001881241798401, 'name': 'Water_run'}]",83.5,84.5
+"[{'probability': 0.6346158981323242, 'name': 'Toilet_flush'}, {'probability': 0.6346158981323242, 'name': 'Water_run'}]",84.0,85.0
+"[{'probability': 0.5897796750068665, 'name': 'Toilet_flush'}, {'probability': 0.5897796750068665, 'name': 'Water_run'}]",84.5,85.5
+"[{'probability': 0.3222839832305908, 'name': 'Instrument'}, {'probability': 0.3222839832305908, 'name': 'Music'}, {'probability': 0.7822122573852539, 'name': 'Toilet_flush'}, {'probability': 0.7822122573852539, 'name': 'Water_run'}]",85.0,86.0
+"[{'probability': 0.3397604823112488, 'name': 'Instrument'}, {'probability': 0.3397604823112488, 'name': 'Music'}, {'probability': 0.3298744559288025, 'name': 'Water_run'}]",85.5,86.5
+"[{'probability': 0.42315828800201416, 'name': 'Instrument'}, {'probability': 0.42315828800201416, 'name': 'Music'}]",86.0,87.0
+"[{'probability': 0.0, 'name': 'Others'}]",86.5,87.5
+"[{'probability': 0.4343240261077881, 'name': 'Instrument'}, {'probability': 0.4343240261077881, 'name': 'Music'}]",87.0,88.0
+"[{'probability': 0.0, 'name': 'Others'}]",87.5,88.5
+"[{'probability': 0.0, 'name': 'Others'}]",88.0,89.0
+"[{'probability': 0.4166254699230194, 'name': 'Instrument'}, {'probability': 0.4166254699230194, 'name': 'Music'}]",88.5,89.5
+"[{'probability': 0.41002100706100464, 'name': 'Instrument'}, {'probability': 0.41002100706100464, 'name': 'Music'}]",89.0,90.0
+"[{'probability': 0.0, 'name': 'Others'}]",89.5,90.5
+"[{'probability': 0.32973143458366394, 'name': 'Instrument'}, {'probability': 0.32973143458366394, 'name': 'Music'}]",90.0,91.0
+"[{'probability': 0.3317275047302246, 'name': 'Instrument'}, {'probability': 0.3317275047302246, 'name': 'Music'}]",90.5,91.5
+"[{'probability': 0.0, 'name': 'Others'}]",91.0,92.0
+"[{'probability': 0.0, 'name': 'Others'}]",91.5,92.5
+"[{'probability': 0.0, 'name': 'Others'}]",92.0,93.0
+"[{'probability': 0.3935500681400299, 'name': 'Female_speech'}, {'probability': 0.5478383898735046, 'name': 'Speech'}]",92.5,93.5
+"[{'probability': 0.858712911605835, 'name': 'Moan'}]",93.0,94.0
+"[{'probability': 0.20846977829933167, 'name': 'Female_speech'}, {'probability': 0.356468141078949, 'name': 'Speech'}]",93.5,94.5
+"[{'probability': 0.0, 'name': 'Others'}]",94.0,95.0
+"[{'probability': 0.0, 'name': 'Others'}]",94.5,95.5
+"[{'probability': 0.0, 'name': 'Others'}]",95.0,96.0
+"[{'probability': 0.0, 'name': 'Others'}]",95.5,96.5
+"[{'probability': 0.6340792179107666, 'name': 'Water_run'}]",96.0,97.0
+"[{'probability': 0.6302899718284607, 'name': 'Water_run'}]",96.5,97.5
+"[{'probability': 0.25391438603401184, 'name': 'Water_run'}]",97.0,98.0
+"[{'probability': 0.5270364284515381, 'name': 'Moan'}]",97.5,98.5
+"[{'probability': 0.9026230573654175, 'name': 'Moan'}, {'probability': 0.4601324796676636, 'name': 'Water_run'}]",98.0,99.0
+"[{'probability': 0.0, 'name': 'Others'}]",98.5,99.5
+"[{'probability': 0.6035824418067932, 'name': 'Moan'}]",99.0,100.0
+"[{'probability': 0.0, 'name': 'Others'}]",99.5,100.5
+"[{'probability': 0.0, 'name': 'Others'}]",100.0,101.0
+"[{'probability': 0.798100471496582, 'name': 'Sigh'}]",100.5,101.5
+"[{'probability': 0.0, 'name': 'Others'}]",101.0,102.0
+"[{'probability': 0.9416099786758423, 'name': 'Sigh'}]",101.5,102.5
+"[{'probability': 0.0, 'name': 'Others'}]",102.0,103.0
+"[{'probability': 0.0, 'name': 'Others'}]",102.5,103.5
+"[{'probability': 0.0, 'name': 'Others'}]",103.0,104.0
+"[{'probability': 0.0, 'name': 'Others'}]",103.5,104.5
+"[{'probability': 0.22834491729736328, 'name': 'Female_speech'}, {'probability': 0.43371015787124634, 'name': 'Speech'}]",104.0,105.0
+"[{'probability': 0.385388046503067, 'name': 'Female_speech'}, {'probability': 0.47072988748550415, 'name': 'Speech'}]",104.5,105.5
+"[{'probability': 0.0, 'name': 'Others'}]",105.0,106.0
+"[{'probability': 0.0, 'name': 'Others'}]",105.5,106.5
+"[{'probability': 0.0, 'name': 'Others'}]",106.0,107.0
+"[{'probability': 0.0, 'name': 'Others'}]",106.5,107.5
+"[{'probability': 0.0, 'name': 'Others'}]",107.0,108.0
+"[{'probability': 0.0, 'name': 'Others'}]",107.5,108.5
+"[{'probability': 0.0, 'name': 'Others'}]",108.0,109.0
+"[{'probability': 0.0, 'name': 'Others'}]",108.5,109.5
+"[{'probability': 0.0, 'name': 'Others'}]",109.0,110.0
+"[{'probability': 0.0, 'name': 'Others'}]",109.5,110.5
+"[{'probability': 0.0, 'name': 'Others'}]",110.0,111.0
+"[{'probability': 0.0, 'name': 'Others'}]",110.5,111.5
+"[{'probability': 0.0, 'name': 'Others'}]",111.0,112.0
+"[{'probability': 0.0, 'name': 'Others'}]",111.5,112.5
+"[{'probability': 0.7983537912368774, 'name': 'Sigh'}]",112.0,113.0
+"[{'probability': 0.9743072986602783, 'name': 'Sigh'}]",112.5,113.5
+"[{'probability': 0.0, 'name': 'Others'}]",113.0,114.0
+"[{'probability': 0.1988280862569809, 'name': 'Female_speech'}, {'probability': 0.4236252009868622, 'name': 'Speech'}]",113.5,114.5
+"[{'probability': 0.31284719705581665, 'name': 'Female_speech'}, {'probability': 0.392000675201416, 'name': 'Speech'}]",114.0,115.0
+"[{'probability': 0.23678965866565704, 'name': 'Female_speech'}, {'probability': 0.5180512070655823, 'name': 'Speech'}]",114.5,115.5
+"[{'probability': 0.0, 'name': 'Others'}]",115.0,116.0
+"[{'probability': 0.0, 'name': 'Others'}]",115.5,116.5
+"[{'probability': 0.0, 'name': 'Others'}]",116.0,117.0
+"[{'probability': 0.45242393016815186, 'name': 'Instrument'}, {'probability': 0.45242393016815186, 'name': 'Music'}]",116.5,117.5
+"[{'probability': 0.49152013659477234, 'name': 'Instrument'}, {'probability': 0.49152013659477234, 'name': 'Music'}, {'probability': 0.49152013659477234, 'name': 'Piano'}]",117.0,118.0
+"[{'probability': 0.42043572664260864, 'name': 'Instrument'}, {'probability': 0.42043572664260864, 'name': 'Music'}, {'probability': 0.42043572664260864, 'name': 'Piano'}]",117.5,118.5
+"[{'probability': 0.0, 'name': 'Others'}]",118.0,119.0
+"[{'probability': 0.43551987409591675, 'name': 'Instrument'}, {'probability': 0.43551987409591675, 'name': 'Music'}]",118.5,119.5
+"[{'probability': 0.6339359283447266, 'name': 'Guitar'}, {'probability': 0.6339359283447266, 'name': 'Instrument'}, {'probability': 0.6339359283447266, 'name': 'Music'}]",119.0,120.0

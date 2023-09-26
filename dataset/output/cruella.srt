@@ -1,0 +1,5 @@
+<SAMI>
+<HEAD>
+<Title>Sample SMI file</Title>
+</HEAD>
+<BODY>

@@ -171,3 +171,13 @@ api_key.json
 # pre_trained model assets
 pretrained_models/
 wav2vec2_checkpoints/
+
+# data list
+.wav
+.mp4
+.mp3
+.json
+.csv
+.srt
+.smi
+.txt

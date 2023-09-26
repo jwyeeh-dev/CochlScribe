@@ -8,11 +8,14 @@ import pandas as pd
 
 from collections import defaultdict
 from models.CochlSense.load import cochlSense
-from tools.utils import extract_audio, transform
+from models.whispers.load import whisper_result
+from models.CochlMood.load import predict_sound_mood
+from models.SpeechBrain.load import speechMood
+
+from tools.utils import extract_audio, transform, trim_audio
 from tools.visualize import visualizer
-from tools.transcript import subtitlewriter
+from tools.transcript import SubtitlesWriter
 from tools.cli import cli
-from models.whisperx.load import whisper_result
 
 
 def main():
@@ -20,9 +23,11 @@ def main():
     audio = extract_audio(args.input_path)
     
     whispers = whisper_result(audio)
+    speechbrain = speechMood(audio)
     csv_path, json_path = cochlSense(audio)
     transformed_df = transform(csv_path)
-    subtitles = subtitlewriter(transformed_df, whispers, args)
+
+    subtitles = SubtitlesWriter(audio, transformed_df, whispers, speechbrain, args)
 
     if args.visualize: visualizer(subtitles, args)
     else: print("No visualization, only transcript") 

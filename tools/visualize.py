@@ -12,8 +12,8 @@ from models.CochlSense.load import cochlSense
 from tools.utils import extract_audio
 from tools.utils import transform
 from tools.cli import cli
-from models.whisperx.load import whisper_result
-from tools.transcript import SubtitlesWriter, smi_generator, srt_generator, txt_generator
+from models.whispers.load import whisper_result
+from tools.transcript import SubtitlesWriter
 
 from PIL import Image, ImageDraw, ImageFont
 

@@ -69,6 +69,15 @@ def extract_audio(input_file, output_file = 'test.mp3'):
 
     return output_file
 
+def extract_audio_segment(input_video, start_time, end_time, output_file = 'temp_audio_segment.wav'):
+    command = [
+        'ffmpeg', '-i', input_video, '-q:a', '0', '-map', 'a',
+        '-ss', str(start_time), '-to', str(end_time), output_file
+    ]
+    subprocess.run(command)
+    return output_file
+
+
 
 def trim_video(input_file, start, end, output_file = 'output.mp4'):
 
@@ -83,6 +92,17 @@ def trim_video(input_file, start, end, output_file = 'output.mp4'):
     
     return output_file
 
+def trim_audio(input_file, start, end, output_file = 'output.mp3'): 
+    cmd = [
+        'ffmpeg',
+        '-i', input_file,
+        '-ss', start,
+        '-to', end,
+        '-c copy', output_file
+    ]
+    subprocess.call(cmd)
+    
+    return output_file
 
 def transform(csv_path):
 

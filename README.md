@@ -41,5 +41,5 @@ $ pip install -e .
 ## How to Use
 
 ```
-python CochlTranscriptor/cochl_transcriptor.py -iv [input_path] -o [output_path] -ot [output_type] -it [input_type] -f [font_path]
+python cochlscribe.py -iv [input_path] -o [output_path] -ot [output_type] -it [input_type] -f [font_path]
 ```

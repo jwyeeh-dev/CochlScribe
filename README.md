@@ -1,3 +1,5 @@
+![스크린샷 2023-10-10 오후 5 30 08](https://github.com/jwyeeh-dev/CochlScribe/assets/99489807/59668efa-3d0e-46eb-9ff6-19b58c071a4f)
+
 # CochlScribe
 
 CochlTranscriptor is Auto transcriptor which make Closed Caption that include Emotional background sounds.

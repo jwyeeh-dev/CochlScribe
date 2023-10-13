@@ -1,37 +1,63 @@
-import sys
-import argparse
-import tools.utils as pt
-import tools.cli as cli
-import cv2
-import ast 
-import pandas as pd
+import logging
 
-from collections import defaultdict
+from tools.cli import cli
+from tools.transcript import generate_subtitles, matching_formats
+from tools.utils import extract_audio, transform, logging_print
+from tools.visualize import visualizer
 from models.CochlSense.load import cochlSense
 from models.whispers.load import whisper_result
-from models.CochlMood.load import predict_sound_mood
 from models.SpeechBrain.load import speechMood
+from models.CochlMood.load import predict_sound_mood
 
-from tools.utils import extract_audio, transform, trim_audio
-from tools.visualize import visualizer
-from tools.transcript import SubtitlesWriter
-from tools.cli import cli
-
+LOG_LEVEL = logging.INFO
 
 def main():
-    args = cli()
-    audio = extract_audio(args.input_path)
+    # Configuring logging
+    logging.basicConfig(level=LOG_LEVEL)
+
+    try:
+        # Parsing command line arguments
+        args = cli() 
+        logging_print("Arguments parsed successfully.")
+
+        # Extracting audio from the video
+        audio = extract_audio(args.input_path)  
+        logging_print("Audio extracted successfully.")
+
+        whispers = whisper_result(audio)  
+        print(whispers)
+        logging_print("Whisper results obtained.")
+
+        # Getting SpeechBrain tags
+        speech_moods = speechMood(audio) 
+        print(speech_moods)
+        logging_print("Speech Mood tags obtained.")
+
+        # Getting CochlSense tags
+        sense_tags, _ = cochlSense(audio)  
+        logging_print("CochlSense tags obtained.")
+
+        # Transforming the CochlSense tags DataFrame
+        transformed_tags = transform(sense_tags)  
+        logging_print("CochlSense tags transformed.")
+
+        # Writing subtitles
+        subtitles = generate_subtitles(transformed_tags, whispers, speech_moods)  
+        
+        # Writing the subtitles in the desired format
+        matching_formats(subtitles, args) 
+        logging_print("Subtitles written successfully.")
+
+
+        if args.visualize:
+            visualizer(subtitles, args)  # Visualizing if the argument is provided
+            logging_print("Visualization completed.")
+        else:
+            logging_print("Transcript completed. No visualization.")
     
-    whispers = whisper_result(audio)
-    speechbrain = speechMood(audio)
-    csv_path, _ = cochlSense(audio)
-    transformed_df = transform(csv_path)
+    except Exception as e:
+        logging.error(f"An error occurred: {e}")  # Logging any unexpected error
 
-    subtitles = SubtitlesWriter(audio, transformed_df, whispers, speechbrain, args)
-
-    if args.visualize: visualizer(subtitles, args)
-    else: print("No visualization, only transcript") 
 
 if __name__ == '__main__':
     main()
-  

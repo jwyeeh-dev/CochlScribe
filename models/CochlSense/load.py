@@ -1,17 +1,8 @@
 import base64
 import json
 import os
-import pydub
-import wave
 import csv
-import librosa
-import numpy as np
-import soundfile as sf
-import matplotlib.cm as cm
-import matplotlib.pyplot as plt
-import subprocess
 
-import tools.utils as tools
 import cochl_sense_api as sense
 import cochl_sense_api.api.audio_session_api as sense_api
 from cochl_sense_api.model.audio_chunk import AudioChunk
@@ -71,13 +62,13 @@ def cochlSense(filename, api_key = './assets/api_key.json'):
             break
 
     # list to json file
-    json_path = 'dataset/data/result_' + str(filename[:-5]) + '.json'
+    json_path = 'dataset/data/result_tags.json'
     with open(json_path, 'w', encoding='utf-8') as json_file:
         json.dump(results_list, json_file, ensure_ascii=False, indent=4)
 
     # list to csv
     keys = results_list[0].keys() 
-    csv_path = 'dataset/data/result_' + str(filename[:-4]) + '.csv'
+    csv_path = 'dataset/data/result_tags.csv'
     with open(csv_path, 'w', newline='', encoding='utf-8') as csv_file:
         writer = csv.DictWriter(csv_file, fieldnames=keys)
         writer.writeheader()

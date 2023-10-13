@@ -13,7 +13,7 @@ from tools.utils import extract_audio
 from tools.utils import transform
 from tools.cli import cli
 from models.whispers.load import whisper_result
-from tools.transcript import SubtitlesWriter
+from tools.transcript import generate_subtitles
 
 from PIL import Image, ImageDraw, ImageFont
 

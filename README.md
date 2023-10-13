@@ -45,3 +45,15 @@ $ pip install -e .
 ```
 python cochlscribe.py -iv [input_path] -o [output_path] -ot [output_type] -it [input_type] -f [font_path]
 ```
+
+## Citation
+```
+@software{Cochl_cochlscribe_2023,
+  author = {Hwang, Jaeyeong},
+  month = {10},
+  title = {{Cochl.Scribe}},
+  url = {https://github.com/jwyeh-dev/CochlScribe},
+  version = {1.0.0},
+  year = {2023}
+}
+```

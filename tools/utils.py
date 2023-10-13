@@ -1,24 +1,11 @@
-import base64
-import json
-import os
 import pydub
 import wave
-import csv
-import librosa
-import numpy as np
-import soundfile as sf
-import matplotlib.cm as cm
-import matplotlib.pyplot as plt
 import subprocess
 import pandas as pd
 import ast
+import logging
 
-import cochl_sense_api as sense
-import cochl_sense_api.api.audio_session_api as sense_api
-from cochl_sense_api.model.audio_chunk import AudioChunk
-from cochl_sense_api.model.audio_type import AudioType
-from cochl_sense_api.model.create_session import CreateSession      
-
+logging.basicConfig(level=logging.ERROR)
 
 def split_audio(file_path, segment_length_ms, output_folder):
     """
@@ -57,7 +44,7 @@ def get_duration(audio_path):
 
 
 
-def extract_audio(input_file, output_file = 'test.mp3'):
+def extract_audio(input_file, output_file = './dataset/audio/extracted_audio.mp3'):
     
     cmd = [
         'ffmpeg',
@@ -65,21 +52,13 @@ def extract_audio(input_file, output_file = 'test.mp3'):
         '-vn',
         output_file
     ]
-    subprocess.call(cmd)
+    
+    subprocess.run(cmd, input='y\n', text=True)
 
     return output_file
 
-def extract_audio_segment(input_video, start_time, end_time, output_file = 'temp_audio_segment.wav'):
-    command = [
-        'ffmpeg', '-i', input_video, '-q:a', '0', '-map', 'a',
-        '-ss', str(start_time), '-to', str(end_time), output_file
-    ]
-    subprocess.run(command)
-    return output_file
 
-
-
-def trim_video(input_file, start, end, output_file = 'output.mp4'):
+def trim_video(input_file, start, end, output_file = './dataset/video/trimed_output.mp4'):
 
     cmd = [
         'ffmpeg',
@@ -92,7 +71,7 @@ def trim_video(input_file, start, end, output_file = 'output.mp4'):
     
     return output_file
 
-def trim_audio(input_file, start, end, output_file = 'output.mp3'): 
+def trim_audio(input_file, start, end, output_file = './dataset/audio/trimed_audio.mp3'): 
     cmd = [
         'ffmpeg',
         '-i', input_file,
@@ -124,3 +103,31 @@ def transform(csv_path):
     transformed_df['name_code'] = transformed_df['name'].astype('category').cat.codes
 
     return transformed_df
+
+
+def logging_print(input):
+    print("-"*50)
+    print(input)
+    print("-"*50)
+
+
+def format_time(seconds):
+        # 시간을 SRT 형식 (hh:mm:ss,ms)으로 포맷팅
+        hours = int(seconds // 3600)
+        seconds %= 3600
+        minutes = int(seconds // 60)
+        seconds %= 60
+        milliseconds = int((seconds - int(seconds)) * 1000)
+        return f"{hours:02d}:{minutes:02d}:{int(seconds):02d},{milliseconds:03d}"
+
+
+
+def emotion_to_text(emotion):
+    """Convert emotion code to text description."""
+    emotion_mapping = {
+        'h': 'happy',
+        'n': 'neutral',
+        'a': 'angry',
+        's': 'sad'
+    }
+    return emotion_mapping[emotion]

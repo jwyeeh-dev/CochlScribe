@@ -25,6 +25,8 @@ def whisper_result(audio_path, language = 'ko', api_keys = './assets/api_key.jso
     model_a, metadata = whisperx.load_align_model(language_code=result["language"], device=args.device)
     result = whisperx.align(result["segments"], model_a, metadata, audio, device=args.device, return_char_alignments=False)
 
+
+    # if you want to speaker diarization, uncomment the following lines
     '''
     # Assign speaker labels
     diarize_model = whisperxx.DiarizationPipeline(use_auth_token=my_token, device=args.device)
@@ -33,5 +35,5 @@ def whisper_result(audio_path, language = 'ko', api_keys = './assets/api_key.jso
     result = whisperxx.assign_word_speakers(diarize_segments, result)
     '''
 
-    return result
+    return result['segments']
 

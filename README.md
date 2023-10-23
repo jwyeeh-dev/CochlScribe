@@ -1,4 +1,4 @@
-![스크린샷 2023-10-10 오후 5 30 08](https://github.com/jwyeeh-dev/CochlScribe/assets/99489807/59668efa-3d0e-46eb-9ff6-19b58c071a4f)
+<img width="1200" alt="The Cover of CochlScribe" src="https://github.com/jwyeeh-dev/CochlScribe/assets/99489807/8ed770ed-a128-4e4b-a94d-e8dab98a9b36">
 
 # CochlScribe
 
@@ -6,7 +6,7 @@ CochlTranscriptor is Auto transcriptor which make Closed Caption that include Em
 
 ## 🦾 The Flow of CochlScribe
 
-![2nd flow of Transcriptor](https://github.com/jwyeeh-dev/CochlScribe/assets/99489807/bea6fe03-787d-4ed9-a259-451766d57217)
+![2nd flow of CochlScribe](https://github.com/jwyeeh-dev/CochlScribe/assets/99489807/bea6fe03-787d-4ed9-a259-451766d57217)
 
 
 

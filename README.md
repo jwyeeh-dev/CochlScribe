@@ -2,7 +2,7 @@
 
 # CochlScribe
 
-CochlTranscriptor is Auto transcriptor which make Closed Caption that include Emotional background sounds.
+CochlScribe is Auto-Captioner which make Closed Caption that include Emotional background sounds.
 
 ## 🦾 The Flow of CochlScribe
 

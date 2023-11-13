@@ -14,17 +14,25 @@ CochlScribe is Auto-Captioner which make Closed Caption that include Emotional b
 
 ### 1. Create Python 3.8 Environment
 
-`conda create --name cochlscribe python=3.8`
+```
+conda create --name cochlscribe python=3.8
+```
 
-`conda activate cochlscribe`
+```
+conda activate cochlscribe
+```
 
 ### 2. Install this repo
 
-`git clone https://github.com/jwyeeh-dev/CochlScribe.git`
+```
+git clone https://github.com/jwyeeh-dev/CochlScribe.git
+```
 
 If already installed, update package to most recent commit
 
-`git clone https://github.com/jwyeeh-dev/CochlScribe.git --upgrade`
+```
+git clone https://github.com/jwyeeh-dev/CochlScribe.git --upgrade
+```
 
 If wishing to modify this package, clone and install in editable mode:
 
@@ -36,7 +44,9 @@ $ pip install -e .
 
 ### 3. Install Pre-requisite
 
-`pip install -r requirements.txt`
+```
+pip install -r requirements.txt
+```
 
 
 
